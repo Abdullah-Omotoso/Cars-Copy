@@ -42,25 +42,99 @@ h4{
     
 }
 
+@media (max-width: 1024px) {
+    h1{
+        width: 69vw;
+        padding-bottom: 0px;
+    }
+
+    
+
+    p{
+        width: 74vw;
+        padding-top: 0px;
+    }
+
+    h4{
+        width: 73vw;
+
+    }
+
+}
+
+@media (max-width: 768px) {
+    h1{
+        width: 85vw;
+    }
+
+    p{
+        width: 87vw;
+    }
+
+    h4{
+        width: 90vw;
+    }
+}
+
 @media (max-width: 425px) {
-    h1 {
-        text-align: center;
+    h1{
+        width: 73vw;
         padding: 0px;
-        font-family: sans-serif;
-        margin: 13px;
-        width: 444px;
-        padding-right: 40px;
-        margin: 13px;
-        width: 444px;
+        font-size: 23px;
     }
 
-    p {
+    p{
+        width: 276px;
+        font-size: 13px;
+        padding-top: 0px;
+    }
+
+    h4{
+        width: 72vw;
+    }
+    
+}   
+
+
+
+@media (max-width: 375px) {
+    h1{
+        width: 85vw;
+    }
+    
+    hr{
+        width: 108vw;
+    }
+
+    h4{
+        width: 83vw;
+    }
+
+    p{
         margin: 10px;
-        width: 431px;
+        font-size: 13px;
+        width: 71vw;
+    }
+    
+}
+
+@media (max-width: 320px) {
+    hr{
+        width: 155vw;
+
     }
 
-    div {
-        gap: 49px;
-        width: 45vw;
+    p{
+        width: 88vw;
+    }
+
+    h4{
+        width: 100vw;
+        font-size: 24px;
+    }
+
+    h1{
+        width: 91vw;
+        font-size: 24px;
     }
 }
